@@ -1,17 +1,17 @@
-#MOOC Angular + React
-##Module 8
-###8.4 p2p exercise - SOLVED WITH STYLES
+# MOOC Angular + React
+## Module 8
+### 8.4 p2p exercise - SOLVED WITH STYLES
 
-#1. Movements count
+# 1. Movements count
 I've added to the state the property "movements" to count the number of movements.
 I've created a new component "Footer" to render the movement count
 The app.jsx updates the counter whenever a move is don
 
-#2. Reset button
+# 2. Reset button
 I added a reset button to the footer. I binded the _handling function in the constructor and it calls the parent's _handler
 On App.jsx we have the final _handling function (resetClick) that updates the state to the initial value.
 
-#3. Winner
+# 3. Winner
 I've added to the state the property "winner" that is initialized with "none". Whenever one or another player makes a winner move, it's updated with the name of the winner.
 To check if there's a winner I've created a function evaluateWinnerMovement() on App.jsx. This function checks the "values" after the last move. In case it finds a winner movement it returns true. Otherwise it returns false.
 
